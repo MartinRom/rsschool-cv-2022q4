@@ -1,12 +1,15 @@
 ## Ivan Romanuk
 
 #### Contact Information
-__Address:__ Minsk, Belarus  
-__E-mail:__ romanuk.ivanc@gmail.com  
-__Discord:__ Martin2#0832  
-__GitHub:__ MartinRom  
+* __Address:__ Minsk, Belarus
+* __E-mail:__ romanuk.ivanc@gmail.com
+* __Discord:__ Martin2#0832
+* __GitHub:__ MartinRom
 ### About me
 I do technical support, integration of cash register equipment, POS systems, bank terminals with software. I support the passing of software certification in testing centers.
+### My skills*
+* basics HTML
+* basics JS
 ### Code Example
 ```cs
 private ResponseResault XReport()
@@ -22,5 +25,5 @@ private ResponseResault XReport()
 ### Education
 Institute of Information Technology
 ### Languages
-Russian - native  
-English - A1
+* Russian - native  
+* English - A1
