@@ -7,7 +7,7 @@
 * __GitHub:__ MartinRom
 ### About me
 I do technical support, integration of cash register equipment, POS systems, bank terminals with software. I support the passing of software certification in testing centers.
-### My skills*
+### My skills
 * basics HTML
 * basics JS
 ### Code Example
