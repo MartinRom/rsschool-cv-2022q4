@@ -6,7 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+
 </head>
 <body>
+      <header class="header">
+        <div class="container header-container">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">About Me</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+
+          <div class="toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="assets/img/avatar.jpg" alt="my avatar" class="section-profile-logo">
+                <div class="section-profile-title">
+                  <h1 class="section-title main-title">Ivan Romanuk</h1>
+                </div>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                  <li class="section-item contacts-item">
+                    Minsk, Belarus
+                  </li>
+                  <li class="section-item contacts-item">
+                    Email: <a href="mailto:romanuk.ivanc@gmail.com" title="email">romanuk.ivanc@gmail.com</a>
+                  </li>
+                  <li class="section-item contacts-item">
+                    Github: <a href="https://github.com/martinrom" title="github">martinrom</a>
+                  </li>
+                  <li class="section-item contacts-item">
+                    Telegram: <a href="https://t.me/MartinRom" title="github">@MartinRom</a>
+                  </li>
+                  <li class="section-item contacts-item">
+                    Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">Martin2#0832</a>
+                  </li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">About me</h2>
+                <p> I do technical support, integration of cash register equipment, POS systems, bank terminals with software. I support the passing of software certification in testing centers. </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                  <li class="section-item">
+                    basics HTML
+                  </li>
+                  <li class="section-item">
+                    basics JS
+                  </li>
+                </ul>
+              </section>
+            <section class="section" id="code">
+              <h2 class="section-title">Code</h2>
+              <pre class="pre">
+              <code>
+              private ResponseResault XReport()
+              {
+                string sFullHexCommand = "04 0D";
+                byte[] byteFullCommand = GetByteOut(sFullHexCommand);
+                UDPSocket.SendTo(byteFullCommand, byteFullCommand.Length, SocketFlags.None, IpKsaHostEnd);
+                Recieve();
+                ResponseResault rResault = GetResponseFromKsa("XReport");
+                return rResault;
+              }
+              </code>
+              </pre>
+            </section>
+            <section class="section section-education" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Institute of Information Technology (Minsk)</p>
+              </section>
+              <section class="section section-english" id="english">
+                <h2 class="section-title">English</h2>
+                <p>A1</p>
+            </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container footer-container">
+          <div>© 2022  <a href="https://github.com/martinrom" title="github" class="github nav-link">martinrom</a>
+          </div>
+          <a href="https://rs.school/js-stage0/"><img src="assets/svg/rs_school.svg" class="rss" alt="link to rss"></a>
+        </div>
+      </footer>
 </body>
 </html>
